@@ -1,0 +1,55 @@
+Zara, Ivanne May O.
+Rosarito, Daevid P.
+BSCS 3I
+
+CALCULATOR SYSTEM
+System Description
+
+The Calculator System is a software application designed to perform basic mathematical operations such as addition, subtraction, multiplication, and division. The system allows users to input numbers and instantly receive accurate results. It provides a simple and user-friendly interface that can be used by students, teachers, employees, and other users who need quick mathematical computations.
+
+This system helps improve efficiency and accuracy in solving mathematical problems compared to manual calculations.
+
+Software Development Methodology
+
+The system will use the Agile development methodology. Agile divides the development process into small phases called sprints, where features are developed, tested, and improved continuously.
+
+Agile Process
+Planning – Identify system requirements and calculator features.
+Design – Create the calculator interface and system structure.
+Development – Build the calculator functions and operations.
+Testing – Test the system to detect errors or incorrect calculations.
+Deployment – Release the calculator system for users.
+Feedback and Improvement – Improve the system based on user feedback.
+
+Agile helps the development team quickly adapt to changes and continuously improve the system.
+
+Design Patterns Used
+1. Model–View–Controller (MVC)
+
+The MVC design pattern separates the system into three parts:
+
+Model – Manages the mathematical operations and data.
+View – Displays the calculator interface and results.
+Controller – Handles user input and system processing.
+
+This improves the system’s organization, maintainability, and scalability.
+
+2. Singleton Pattern
+
+The Singleton pattern ensures that only one instance of the calculator engine exists in the system. This helps manage resources efficiently.
+
+3. Factory Pattern
+
+The Factory pattern is used to create different mathematical operations such as addition, subtraction, multiplication, and division without directly specifying the exact operation class.
+
+DevOps Principles Applied
+
+DevOps practices will be used to improve the development and deployment process.
+
+Version Control – Git will track changes in the code.
+Continuous Integration (CI) – Automatically test code when updates are made.
+Continuous Deployment (CD) – Automatically deploy system updates.
+Monitoring – Track system performance and detect issues.
+Real-World Problem Addressed
+
+Many people need fast and accurate calculations for school, work, and daily activities. Manual computation may take time and can lead to errors. This system solves that problem by providing a quick, reliable, and easy-to-use calculator application for everyday mathematical computations.
